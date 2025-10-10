@@ -1,4 +1,4 @@
-# Barbearia da Steh - Landing Page
+# Barbearia  - Landing Page
 
 Landing page moderna e responsiva para a Barbearia da Steh, desenvolvida com HTML, CSS e JavaScript.
 
