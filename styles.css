@@ -9,6 +9,18 @@
     --transition: all 0.3s ease;
 }
 
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: linear-gradient(90deg, var(--color-primary), #ffc857);
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: 2000;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -488,4 +500,14 @@ img {
     .testimonials-grid {
         grid-template-columns: 1fr;
     }
+}
+
+/* Flaticon Razor icon mask */
+.service-icon .icon-razor {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: currentColor; /* matches var(--color-primary) via inheritance */
+    -webkit-mask: url('https://cdn-icons-png.flaticon.com/512/2821/2821012.png') no-repeat center / contain;
+    mask: url('https://cdn-icons-png.flaticon.com/512/2821/2821012.png') no-repeat center / contain;
 }
